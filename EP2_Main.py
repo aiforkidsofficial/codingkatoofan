@@ -1,3 +1,13 @@
+"""
+PYTHON CODE - Episode 2
+SERIES - Coding Ka Toofan
+TEACHER - Lalit Kumar
+
+NOTE: Please don't copy this, it will not help you understand the concepts.. try on your own.. just use it for reference if you get stuck at some point of time.
+"""
+
+
+
 # print("Hello, World!")
 # print("0____")
 # print(" ||||")
