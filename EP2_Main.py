@@ -8,9 +8,9 @@ NOTE: Please don't copy this, it will not help you understand the concepts.. try
 
 
 
-# print("Hello, World!")
-# print("0____")
-# print(" ||||")
+print("Hello, World!")
+print("0____")
+print(" ||||")
 
 #COMMENTS
 
@@ -36,16 +36,16 @@ This is a multiline string
 """
 
 # VARIABLES
-# person = 'mother'
+person = 'mother'
 
-# print("This person is my " +  person + " and she is wonderful!")
-# print("This person is my" ,  person , "and she is wonderful!")
-#
-# person = "father"
-# print("This person is my " +  person + " and she is wonderful!")
-# print("This person is my" ,  person , "and she is wonderful!")
+print("This person is my " +  person + " and she is wonderful!")
+print("This person is my" ,  person , "and she is wonderful!")
 
-# myAge = 50
+person = "father"
+print("This person is my " +  person + " and she is wonderful!")
+print("This person is my" ,  person , "and she is wonderful!")
+
+myAge = 50
 
 #RULES for NAMING a Variable
 
@@ -81,14 +81,14 @@ some-Name = "anyname"
 
 
 
-# person = input("Enter your name: ")
-# print("My Name is " +  person + " and I am wonderful!")
+person = input("Enter your name: ")
+print("My Name is " +  person + " and I am wonderful!")
 
 #GKG2 - Input Function always converts the user input into a string
 
-# person = input("Enter your name: ")
-# a = type(person)
-# print(a)
+person = input("Enter your name: ")
+a = type(person)
+print(a)
 
 #------------------------------#
 
@@ -96,20 +96,20 @@ some-Name = "anyname"
 
 # Q1
 
-# inputNumber = input("Enter a Number: ")
-#
-# print("This is the table of " + inputNumber)
-#
-# print(inputNumber + "x1 = " , int(inputNumber) * 1)
-# print(int(inputNumber) * 2)
-# print(int(inputNumber) * 3)
-# print(int(inputNumber) * 4)
-# print(int(inputNumber) * 5)
-# print(int(inputNumber) * 6)
-# print(int(inputNumber) * 7)
-# print(int(inputNumber) * 8)
-# print(int(inputNumber) * 9)
-# print(int(inputNumber) * 10)
+inputNumber = input("Enter a Number: ")
+
+print("This is the table of " + inputNumber)
+
+print(inputNumber + "x1 = " , int(inputNumber) * 1)
+print(int(inputNumber) * 2)
+print(int(inputNumber) * 3)
+print(int(inputNumber) * 4)
+print(int(inputNumber) * 5)
+print(int(inputNumber) * 6)
+print(int(inputNumber) * 7)
+print(int(inputNumber) * 8)
+print(int(inputNumber) * 9)
+print(int(inputNumber) * 10)
 
 #Q2
 
@@ -117,19 +117,19 @@ some-Name = "anyname"
 # circumference = 2 pi r
 
 # Solution
-"""
+
 radius = int(input("Enter the Radius of Circle: "))
 pi = 3.14
 print("Circumference of Circle =", 2 * pi * radius)
-"""
+
 
 #Ques - 3
 
-# print("*\n**\n***\n****\n*****")
+print("*\n**\n***\n****\n*****")
 
 #Ques - 4
 
-# number_of_years = int(input("Please Provide the Number of years: "))
+number_of_years = int(input("Please Provide the Number of years: "))
 
 """
 
@@ -142,18 +142,18 @@ print("Circumference of Circle =", 2 * pi * radius)
 number of years = number_of_years * 1yr secs
 
 """
-# total_seconds = number_of_years * 12*30*24*60*60
-#
-# print("Number of Seconds in ",number_of_years, "Years is", total_seconds, "Seconds")
+total_seconds = number_of_years * 12*30*24*60*60
+
+print("Number of Seconds in ",number_of_years, "Years is", total_seconds, "Seconds")
 
 # Question - 5
 
-# first_name = input("Please enter your first name: ")
-# last_name = input("Please enter your last name: ")
+first_name = input("Please enter your first name: ")
+last_name = input("Please enter your last name: ")
 
 ##Lalit Kumar -> Kumar Lalit
 
-# print(last_name , first_name)
+print(last_name , first_name)
 
 # Question 6
 
@@ -169,22 +169,22 @@ avg = (1 + 2 + 3) / 3
 
 # SOLUTION
 
-# num1 = int(input("Enter the 1st Number: "))
-# num2 = int(input("Enter the 2nd Number: "))
-# num3 = int(input("Enter the 3rd Number: "))
-#
-# total = num1 + num2 + num3
-# avg = (num1 + num2 + num3)/3
-#
-# print("The Total of your numbers  = ", total)
-# print("The average of your numbers  = ", avg)
+num1 = int(input("Enter the 1st Number: "))
+num2 = int(input("Enter the 2nd Number: "))
+num3 = int(input("Enter the 3rd Number: "))
+
+total = num1 + num2 + num3
+avg = (num1 + num2 + num3)/3
+
+print("The Total of your numbers  = ", total)
+print("The average of your numbers  = ", avg)
 
 #QUESTION - 7
 
-# print("text", 1, 4, "AurText", sep = " ")
+print("text", 1, 4, "AurText", sep = " ")
 # Comma ke pehle aur comma ke baad kya aana hai.. that is sep = "", default value of sep = " " .. a space
 
-# print("*","**","***", sep="\n")
+print("*","**","***", sep="\n")
 
 """
 Hint
@@ -195,8 +195,8 @@ output: 7---14---21---28---35
 
 # Solution
 
-# x = int(input("Please Enter a Number: "))
-# print(x, 2*x, 3*x, 4*x, 5*x, sep="---")
+x = int(input("Please Enter a Number: "))
+print(x, 2*x, 3*x, 4*x, 5*x, sep="---")
 
 #QUESTION 8
 
@@ -210,19 +210,19 @@ output -1. Tip Amount
         2. Total Bill
 """
 
-# price_of_food = int(input("Enter the Price of the meal: "))
-# percent_tip = int(input("Enter the %age tip you want to give: "))
+price_of_food = int(input("Enter the Price of the meal: "))
+percent_tip = int(input("Enter the %age tip you want to give: "))
 
 """
 200rs -> 
 
 10/100 * 200 - 20
 """
-# tip_amount = price_of_food * (percent_tip/100)
-# total_bill = tip_amount + price_of_food
-#
-# print("The Total amount of tip =", tip_amount)
-# print("The Total amount to be paid =", total_bill)
+tip_amount = price_of_food * (percent_tip/100)
+total_bill = tip_amount + price_of_food
+
+print("The Total amount of tip =", tip_amount)
+print("The Total amount to be paid =", total_bill)
 
 # CHOCOLATE PROBLEM 1
 """
@@ -232,18 +232,18 @@ output -1. Tip Amount
 2. without using 3rd variable
 """
 
-# a = 2
+a = 2
 
-# b = 3
+b = 3
 
-# print(a)
-# print(b)
+print(a)
+print(b)
 
 # # SOME CODE
 
-# print("After Swapping")
-# print(a)
-# print(b)
+print("After Swapping")
+print(a)
+print(b)
 
 ## HINT (ii) - using multiple variable assignment technique
 
